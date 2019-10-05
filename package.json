@@ -10,6 +10,7 @@
     "@react-native-community/netinfo": "^2.0.10",
     "axios": "^0.18.1",
     "native-base": "^2.11.0",
+    "prop-types": "^15.7.2",
     "react": "16.6.3",
     "react-native": "0.58.1",
     "react-native-base": "^1.1.0",
@@ -19,11 +20,17 @@
     "react-native-sqlite-storage": "^3.3.9",
     "react-native-vector-icons": "^6.3.0",
     "react-navigation": "^3.0.9",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^2.1.8",
+    "reactotron-react-native": "^4.0.2",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.0.0",
+    "eslint": "^6.5.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0",
     "jest": "24.0.0",
     "metro-react-native-babel-preset": "0.51.1",
     "react-test-renderer": "16.6.3"
