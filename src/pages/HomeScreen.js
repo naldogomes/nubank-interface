@@ -72,7 +72,7 @@ export default class HomeScreen extends Component {
                     </Header>
                     <View>
                         <Text style={{fontSize:20, fontWeight: 'bold', marginLeft: 20, marginTop: 25}}>
-                            React Native basic init Nubank
+                            React Native basic init
                         </Text>
                         <Text style={{fontSize:20, marginLeft: 20, marginTop: 10}}>
                             github.com/naldogomes
