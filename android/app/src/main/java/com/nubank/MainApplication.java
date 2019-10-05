@@ -1,4 +1,4 @@
-package com.template;
+package com.nubank;
 
 import android.app.Application;
 
