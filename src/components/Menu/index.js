@@ -9,7 +9,7 @@ export default function Menu({ translateY }) {
     return (
         <Container style={{
             opacity: translateY.interpolate({
-              inputRange: [0, 150],
+              inputRange: [0, 300],
               outputRange: [0, 1],
             }),
         }}

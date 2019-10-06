@@ -37,6 +37,10 @@ export default function Main() {
         { useNativeDriver: true },
     );
 
+    function setOffset(){
+        offset = 0;
+    }
+
     function onHandlerStateChanged(event) {
         if (event.nativeEvent.oldState === State.ACTIVE) {
             let opened = false;
@@ -53,15 +57,15 @@ export default function Main() {
             }
        
             Animated.timing(translateY, {
-              toValue: opened ? 380 : 0,
+              toValue: opened ? 370 : 0,
               duration: 200,
               useNativeDriver: true,
             }).start(() => {
-              offset = opened ? 380 : 0;
+              offset = opened ? 370 : 0;
               translateY.setOffset(offset);
               translateY.setValue(0);
             });
-          }
+        }
     }
 
     return (
@@ -91,7 +95,7 @@ export default function Main() {
                                 <Icon name="attach-money" size={28} color="#665" />
                                 <AccountType>NuConta</AccountType>
                             </Left>
-                            <Icon name="visibility-off" size={28} color="#665" />
+                            <Icon name="visibility-off" size={28} color="#665" onPress={() => setOffset()} />
                         </CardHeader>
                         <CardContent>
                             <Title>Saldo disponível</Title>

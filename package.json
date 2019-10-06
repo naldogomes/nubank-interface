@@ -15,7 +15,7 @@
     "react-native": "0.58.1",
     "react-native-base": "^1.1.0",
     "react-native-dialog-input": "^1.0.7",
-    "react-native-gesture-handler": "^1.0.15",
+    "react-native-gesture-handler": "^1.2.0",
     "react-native-linear-gradient": "^2.5.3",
     "react-native-qrcode": "^0.2.7",
     "react-native-sqlite-storage": "^3.3.9",
