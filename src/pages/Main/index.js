@@ -2,6 +2,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Header from '../../components/Header'
+import Menu from '../../components/Menu'
 import Tabs from '../../components/Tabs'
 
 import { Container, Content, Card, CardHeader, Left, AccountType, CardContent, CardFooter, Title, Description, Annotation } from './styles'
@@ -12,6 +13,8 @@ export default function Main() {
             <Header/>
 
             <Content>
+                <Menu />
+
                 <Card>
                     <CardHeader>
                         <Left>

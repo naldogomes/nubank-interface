@@ -4,7 +4,7 @@ import './config/StatusBarConfig';
 import Index from './pages/Main';
 
 const AppNavigator = createStackNavigator({
-  'Splash': {
+  'Main': {
     screen: Index,
     navigationOptions: {
       header: null
